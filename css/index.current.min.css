@@ -1,0 +1,23 @@
+.tabs {
+    width: 20px;
+    height: 23px;
+    background: url(../images/tbs.png) no-repeat 0 0;
+    background-size: 20px auto;
+    display: inline-block;
+}
+
+.tabs-copy {
+    background-position: 0 0;
+}
+
+.tabs-refresh {
+    background-position: 0 -23px;
+}
+
+.tabs-share {
+    background-position: 0 -47px;
+}
+
+.tabs-setup {
+    background-position: 0 -72px;
+}
