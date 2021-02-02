@@ -717,7 +717,6 @@ header {
 }
 
 .tam-konteyner>.background {
-    background-image: url(https://cdn.jsdelivr.net/gh/spamcage/libs/images/background.png);
     background-size: 200px 200px;
     opacity: .05;
     width: 100%;
