@@ -154,9 +154,9 @@ a:hover {
 }
 
 @font-face {
-    font-family: tempail;
-    src: url(../fonts/tempail.eot?7flg1a);
-    src: url(../fonts/tempail.eot?7flg1a#iefix) format('embedded-opentype'), url(../fonts/tempail.ttf?7flg1a) format('truetype'), url(../fonts/tempail.woff?7flg1a) format('woff'), url(../fonts/tempail.svg?7flg1a#tempail) format('svg');
+    font-family: temp;
+    src: url(../fonts/temp.eot?7flg1a);
+    src: url(../fonts/temp.eot?7flg1a#iefix) format('embedded-opentype'), url(../fonts/temp.ttf?7flg1a) format('truetype'), url(../fonts/temp.woff?7flg1a) format('woff'), url(../fonts/temp.svg?7flg1a#temp) format('svg');
     font-weight: 400;
     font-style: normal;
     font-display: swap
@@ -164,7 +164,7 @@ a:hover {
 
 [class*=" fa-"],
 [class^=fa-] {
-    font-family: tempail !important;
+    font-family: temp !important;
     speak: none;
     font-style: normal;
     font-weight: 400;
