@@ -1,8 +1,26 @@
 .deng-box {
             position: fixed;
-            top: -40px;
+            top: -35px;
+            left: 25px;
+            z-index: 999;
+        }
+        .deng-box2 {
+            position: fixed;
+            top: -35px;
             left: -20px;
             z-index: 999;
+            -webkit-animation: swing 6s infinite ease-in-out;
+            -webkit-transform-origin: 50% -45px;
+
+        }
+
+        .deng-box5 {
+            position: fixed;
+            top: -30px;
+            right: 50px;
+            z-index: 999;
+            -webkit-animation: swing 6s infinite ease-in-out;
+            -webkit-transform-origin: 50% -45px;
         }
 
         .deng-box1 {
@@ -24,7 +42,15 @@
             -webkit-animation: swing 5s infinite ease-in-out;
             box-shadow: -5px 5px 30px 4px rgba(252, 144, 61, 1);
         }
-
+        .deng-box1 .deng:hover {
+            background-color: yellow;
+        }
+        .deng:hover {
+            background-color: violet;
+        }
+        .deng-box .deng:hover {
+            background-color:  greenyellow;
+        }
         .deng {
             position: relative;
             width: 120px;
@@ -34,7 +60,7 @@
             background: rgba(216, 0, 15, 0.8);
             border-radius: 50% 50%;
             -webkit-transform-origin: 50% -100px;
-            -webkit-animation: swing 3s infinite ease-in-out;
+            -webkit-animation: swing 5s infinite  ease-in-out;
             box-shadow: -5px 5px 50px 4px rgba(250, 108, 0, 1);
         }
 
@@ -169,4 +195,4 @@
             100% {
                 -webkit-transform: rotate(-10deg)
             }
-        }
+        } 
