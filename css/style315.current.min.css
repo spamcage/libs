@@ -738,18 +738,9 @@ header {
 }
 
 .tam-konteyner {
-    /*padding: 20px 0;*/
+    padding: 20px 0;
     width: 100%;
-    position: relative;
-	padding-bottom: 20px;
-	
-}
-.tam-konteyner1 {
-    /* padding: 20px 0; */
-    width: 100%;
-    position: relative;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    position: relative
 }
 
 .bulutlu-arkaplan {
@@ -762,7 +753,7 @@ header {
     margin-right: auto;
     margin-left: auto;
     max-width: 920px;
-    padding: 0 15px;
+    padding: 0 15px
 }
 
 .ana-konteyner::before,
@@ -2310,11 +2301,11 @@ a.tus:hover {
     }
 
     .tam-konteyner {
-       /* padding: 10px 0*/
+        padding: 10px 0
     }
 
     .ana-konteyner {
-        /* margin: 10px auto;*/
+        margin: 10px auto;
         padding: 0
     }
 
